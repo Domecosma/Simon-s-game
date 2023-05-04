@@ -54,15 +54,28 @@ body {
 
 
 
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1020px) {
 
     #level-title {
-        font-size: 2.25rem;
+        font-size: 3rem;
     }
 
     .container {
         width: 80%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    #level-title {
+        font-size: 1.75rem;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .btn {
